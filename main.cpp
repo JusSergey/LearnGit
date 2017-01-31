@@ -1,7 +1,8 @@
 #include <iostream>
+using std::cout;
 
 int main(){
-    std::cout << "Hello, world...\n";
-    std::cout.flush();
+    cout << "Hello, world...\n";
+    cout.flush();
     return 0;
 }
